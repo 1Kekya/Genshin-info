@@ -1,0 +1,42 @@
+#weapon .content {
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#weapon .card{
+    width: auto;
+}
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#weapon .name {
+    min-width: unset;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-weapon {
+    display: flex;
+}
+
+.item-weapon > picture > img{
+    width: 74px;
+}
+
+.weapon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 3px;
+    column-gap: 3px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid var(--bg-c);
+}
