@@ -64,6 +64,7 @@ body{
 
 .page{
     margin: 20px auto;
+    padding: 0 20px;
 }
 
 .content-box{
@@ -162,6 +163,10 @@ picture {
 
 .r {
     background-color: #b94f56;
+}
+
+.b {
+    background-color: #78a8c8;
 }
 
 .gr {
